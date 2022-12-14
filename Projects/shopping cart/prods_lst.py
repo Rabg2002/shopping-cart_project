@@ -6,7 +6,7 @@ def prod_lst():
     for k,v in prod_list.items():
         print(k,":",v)
     
-    print("Type 'Stop' or 'STOP' for not adding products")
+    print("Type 'stop' or 'STOP' for not adding products")
     while True:
         add_prod=input("Add products in the list:")
         
