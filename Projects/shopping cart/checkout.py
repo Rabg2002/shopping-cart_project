@@ -2,6 +2,7 @@
 import prods_lst
 import choose_prdct
 
+
 def tot_price(a):
     add=0
     for k,v in a.items():
@@ -17,4 +18,7 @@ def tot_price(a):
     print("  --> Total amount = ₹",amt-disc)
     print('---------------------------')
 
-tot_price(choose_prdct.dict)
+if __name__=="__main__" :   
+    prods_lst.new_lst(prods_lst.prod_list)
+    choose_prdct.choose_product(prods_lst.prod_list)
+    tot_price(choose_prdct.dict)

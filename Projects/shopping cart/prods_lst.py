@@ -18,7 +18,7 @@ def prod_lst():
     
     new_lst(prod_list)
  
-def new_lst(prod_list):           
+def new_lst(p):           
     print()
     print("------New list of products------")
     i=1
@@ -26,7 +26,9 @@ def new_lst(prod_list):
         print(i,".",k,":","₹",v,)
         i+=1
         
-prod_lst()
+if __name__=="__main__" :
+    
+    new_lst(prod_list)
 
 
 
