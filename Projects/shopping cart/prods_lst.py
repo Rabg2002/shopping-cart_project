@@ -1,4 +1,4 @@
-#putting items in the dictionaryq
+#putting items in the dictionary
 
 prod_list={'mango':60,'banana':40,'apple':90,'guava':50,'chick-pea':100}
 def prod_lst():
