@@ -27,7 +27,7 @@ def new_lst(p):
         i+=1
         
 if __name__=="__main__" :
-    
+    prod_lst()
     new_lst(prod_list)
 
 
